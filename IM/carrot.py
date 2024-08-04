@@ -20,7 +20,7 @@ for tc in range(1,T+1):
         if carrot[i] < carrot[i+1]:  # 자기 자신에 1을 더한 값과 앞의 요소의 값이 같으면 counts에 1을 더해줌
             counts += 1
         else:                           # 위의 조건이 아닐 경우 counts를 0으로 초기화
-            counts = 1
+            counts = 0
         if counts > maxValue:           # counts가 maxValue보다 더 클 경우 maxValue에 할당
             maxValue = counts
 

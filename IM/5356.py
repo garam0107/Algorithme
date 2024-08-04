@@ -1,7 +1,7 @@
 def vertical(array,N):
     word_list = []
     maxlen = 15
-    for j in range(maxlen)):
+    for j in range(maxlen):
         for i in range(N):
             try:
                 word_list += array[i][j]
